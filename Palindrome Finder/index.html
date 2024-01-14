@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Palindrome Checker</title>
+</head>
+<div class="box1">
+    <h1>Palindrome Checker</h1><br>
+    <h2>Description:</h2><br>
+    <p>Hi this is my mini project to showcase my skills.<br>
+        A palindrome is a word, number, phrase, or other sequence
+        of symbols that reads the same backwards as forwards
+    </p>
+</div>
+<div class="container">
+    <label for="inputText">Enter a word or phrase:</label>
+    <input type="text" id="inputText" placeholder="Enter text...">
+    <button onclick="checkPalindrome()">Check Palindrome</button>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p id="result"></p>
+    </div>
+</div>
+<body>
+<script src="script.js"></script>    
+</body>
+</html>
